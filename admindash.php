@@ -95,6 +95,7 @@ include 'db_connection.php';
     <script>
         function showSection(sectionId) {
             let sections = document.querySelectorAll('.content-section');
+            //fgfgfgf
             sections.forEach(section => section.style.display = 'none');
             document.getElementById(sectionId).style.display = 'block';
         }
