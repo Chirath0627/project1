@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/background.jpeg') no-repeat center center fixed; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.info-container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-btn, .logout-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.back-btn {
+    background: #007BFF;
+    color: white;
+}
+
+.logout-form {
+    margin-top: 10px;
+}
+
+.logout-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #c9302c;
+}

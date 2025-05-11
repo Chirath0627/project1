@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #00838F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.top-links a, .contact-info span {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+.logo h1 {
+    font-size: 24px;
+    color: #00838F;
+}
+
+
+.top-services {
+    display: flex;
+    justify-content: flex-end; ;
+    align-items: center;
+    gap: 40px;
+    padding: 15px 10px;
+    background: #f9f9f9;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-item img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.service-item a {
+    text-decoration: none;
+    color: #00838F;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.service-item a:hover {
+    color: #005580;
+}
+
+
+.service-item.emergency a {
+    color: red;
+    font-weight: bold;
+}
+
+.service-item.emergency img {
+    width: 45px;
+    height: 45px;
+}
+
+.emergency-number {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #0a7ab2;
+        padding: 10px;
+        height: 50px;
+
+    }
+    nav img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    nav a:hover {
+        background: #003f66;
+    }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    color: #005580;
+}
+
+.hero-content p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background: #00838F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.latest-news {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.news-title {
+    color: #005580;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.news-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background: rgb(157, 232, 251);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 320px;
+    transition: transform 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-about,
+.footer-contact {
+    width: 35%;
+    text-align: left;
+}
+
+.footer-about img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-about p,
+.footer-contact p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-contact h3 {
+    color: #00838F;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    width: 25%;
+    text-align: left;
+}
+
+.footer-social h3 {
+    color: #00838F;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.copyright-footer {
+    background: #000; 
+    color: #b0b0b0; 
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+

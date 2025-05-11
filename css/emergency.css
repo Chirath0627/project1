@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ 
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #0a7ab2;
+        padding: 10px;
+        height: 50px;
+
+    }
+    nav img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    nav a:hover {
+        background: #003f66;
+    }
+
+
+.emergency-care {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background: white;
+}
+
+.emergency-care .content {
+    width: 55%;
+}
+
+.emergency-care h1 {
+    font-size: 28px;
+    color: #005580;
+}
+
+.emergency-care p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.emergency-image {
+    width: 40%;
+}
+
+.emergency-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.services {
+    padding: 50px 10%;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 24px;
+    color: #005580;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.services ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose {
+    padding: 50px 10%;
+    text-align: center;
+    background: white;
+}
+
+.why-choose h2 {
+    font-size: 24px;
+    color: #005580;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #005580;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 22%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .emergency-care {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .emergency-care .content, .emergency-image {
+        width: 100%;
+    }
+
+    .services-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+
+footer {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-about,
+.footer-contact {
+    width: 35%;
+    text-align: left;
+}
+
+.footer-about img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-about p,
+.footer-contact p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-contact h3 {
+    color: #00838F;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    width: 25%;
+    text-align: left;
+}
+
+.footer-social h3 {
+    color: #00838F;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.copyright-footer {
+    background: #000; 
+    color: #b0b0b0; 
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
